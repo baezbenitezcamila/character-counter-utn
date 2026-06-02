@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
-    font-family: 
+    font-family: sans-serif
  }
 
  body{
@@ -45,7 +45,7 @@
    border-radius: 8px;
 }
 
-.hero h1{
+.hero{
    text-align: center;
    font-size: 1rem;
    line-height: 1.1;
@@ -133,6 +133,6 @@
 
 .fill{
     height:100%;
-    background:#d8a7ff;
+    background:#d19bff;
     border-radius:50px;
 }
