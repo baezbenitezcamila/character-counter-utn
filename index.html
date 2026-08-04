@@ -1,86 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <div class="icon"><img src="assets/logo.png" alt="Logo del proyecto"></div>
-                <span>Character Counter</span>
-            </div>
-        <button>☼
-        </button>
-        </header>
-    </div>
-    
-    <section class="hero">
-        <h1>Analyze your text in real-time.</h1>
-    </section>
-
-    <section class="editor">
-        <textarea placeholder="Escribi tu texto aquí..."></textarea>
-    </section>
-         
-    <section class="options">
-        <label>
-            <input type="checkbox">
-            Exclude Spaces
-        </label>
-        <label>
-            <input type="checkbox">
-            Set Character Limit
-        </label>
-        <span>Approx. reading time:<1 minute </span>
-    </section>
-    <section class="stats">
-        <div class="card purple">
-            <h2>278</h2>
-            <p>Total Characters</p>
-        </div>
-        <div class="card orange">
-            <h2>39</h2>
-            <p>Word Count</p>
-        </div>
-        <div class="card salmon">
-            <h2>04</h2>
-            <p>Sentence Count</p>
-        </div>
-    </section>
-    <section class="density">
-        <h2>Letter Density</h2>
-        <div class="row">
-            <span>E</span>
-            <div class="bar">
-                <div class="fill" style="width: 40%;"></div>
-            </div>
-            <span>40 (16.06%)</span>
-        </div>
-        <div class="row">
-            <span>I</span>
-            <div class="bar">
-                <div class="fill" style="width: 29%;"></div>
-            </div>
-            <span>29 (11.65%)</span>
-        </div>
-        <div class="row">
-            <span>T</span>
-            <div class="bar">
-                <div class="fill" style="width: 28%;"></div>
-            </div>
-            <span>28 (11.24%)</span>
-        </div>
-        <div class="row">
-            <span>O</span>
-            <div class="bar">
-                <div class="fill" style="width: 22%;"></div>
-            </div>
-            <span>22 (8.84%)</span>
-        </div>
-    </section>
-    <div>See move &#9662</div>    
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>character-counter-utn</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
